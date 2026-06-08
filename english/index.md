@@ -1,3 +1,9 @@
+> **OCS Inventory 3.0 is now available !**
+> A new major version has been released with a fully updated documentation.
+> - [Read the announcement on GitHub](https://github.com/OCSInventory-NG/.github/blob/main/profile/README.md)
+> - [Browse the new documentation](https://documentation.ocsinventory-ng.org/)
+
+
 # OCS Inventory NG 2.x Documentation
 
 To make it easier to read, the OCS Inventory NG documentation has been divided into 15 sections.
