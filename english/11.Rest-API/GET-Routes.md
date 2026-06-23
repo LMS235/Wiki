@@ -91,13 +91,13 @@ Result :
 
 **Parameter :** (query string)
 
-* _:timestamp_ (default: 86400, i.e. 1 day) : timestamp of the number of days to count down from the current date. Optional.
+* _:timestamp_ (default: current time - 86400, i.e. last 24 hours): absolute Unix timestamp used as the lower bound for the search. If provided, the endpoint returns computers updated after this timestamp. Optional.
 
 **Return :** Table of computer IDs in JSON format.
 
 _Usage example :_
 
-Full URL : `http://myocsserver/ocsapi/v1/computers/lastupdate/172800`
+Full URL to list devices updated since 2026-06-23 08:00:00: `http://myocsserver/ocsapi/v1/computers/lastupdate/1782194400`
 
 Result :
 ```json
